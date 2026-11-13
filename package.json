@@ -4,7 +4,9 @@
   "version": "1.0.0",
   "description": "METR – Discover the Decision: a five-minute bilingual live interactive experience (Arabic & English).",
   "type": "module",
-  "engines": { "node": ">=20.19" },
+  "engines": {
+    "node": ">=20.19"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -12,6 +14,7 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.49.0",
+    "qrcode": "^1.5.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
